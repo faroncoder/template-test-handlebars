@@ -1,0 +1,12 @@
+  {{#if data}}
+    <div class="container">
+      <h1> {{title}} </h1>
+      <ul>
+      	{{#data}}
+            <li title="job: {{job}} status: {{status}}">
+          	{{name}}
+          </li>
+          {{/data}}
+      </ul>
+    </div>
+  {{/if}}
